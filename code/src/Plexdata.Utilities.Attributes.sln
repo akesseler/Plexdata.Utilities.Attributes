@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plexdata.Utilities.Attributes", "Plexdata.Utilities.Attributes\Plexdata.Utilities.Attributes.csproj", "{4A087BC4-2F96-49AF-A7A0-6C98B06D0466}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plexdata.Utilities.Attributes.Tester", "Plexdata.Utilities.Attributes.Tester\Plexdata.Utilities.Attributes.Tester.csproj", "{42AE45B9-2935-48D7-A440-58E005F5570F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{573DE4C4-99F1-4A10-ABC3-2117E7F13B03}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		clean.cmd = clean.cmd
+		HISTORY.md = HISTORY.md
+		post-build.cmd = post-build.cmd
+		README.md = README.md
+		TODOs.md = TODOs.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plexdata.Utilities.Attributes.Tests", "Plexdata.Utilities.Attributes.Tests\Plexdata.Utilities.Attributes.Tests.csproj", "{73186783-ABAD-4FE4-863E-94C11BB713AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A087BC4-2F96-49AF-A7A0-6C98B06D0466}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A087BC4-2F96-49AF-A7A0-6C98B06D0466}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A087BC4-2F96-49AF-A7A0-6C98B06D0466}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A087BC4-2F96-49AF-A7A0-6C98B06D0466}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42AE45B9-2935-48D7-A440-58E005F5570F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42AE45B9-2935-48D7-A440-58E005F5570F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42AE45B9-2935-48D7-A440-58E005F5570F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42AE45B9-2935-48D7-A440-58E005F5570F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73186783-ABAD-4FE4-863E-94C11BB713AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73186783-ABAD-4FE4-863E-94C11BB713AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73186783-ABAD-4FE4-863E-94C11BB713AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73186783-ABAD-4FE4-863E-94C11BB713AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B71B381-524C-4C15-9095-B20116EC9693}
+	EndGlobalSection
+EndGlobal
